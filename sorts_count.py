@@ -34,7 +34,7 @@ def bubble_count(list):
 
 
 def insertion_count(list):
-    """Insertion sorts a list and returns a tuple of the comparisons and echanges made."""
+    """Insertion sorts a list and returns a tuple of the comparisons and exchanges made."""
 
     comparisons = 0
     exchanges = 0
@@ -50,8 +50,6 @@ def insertion_count(list):
             pos -= 1
 
             exchanges += 1
-
-            comparisons += 1
 
         list[pos + 1] = value
 
