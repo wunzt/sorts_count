@@ -51,9 +51,9 @@ def insertion_count(list):
 
             exchanges += 1
 
-        list[pos + 1] = value
+            comparisons += 1
 
-        comparisons += 1
+        list[pos + 1] = value
 
     comp_ex_tuple = (comparisons, exchanges)
 
